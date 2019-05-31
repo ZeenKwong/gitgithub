@@ -19,7 +19,7 @@ public class NewController {
     @RequestMapping("getAll")
     public List<News> getAll(){
         News news1 = new News(1,"aaa","cc");
-        News news2 = new News(2,"bbb","cccc");
+        News news2 = new News(2,"bbb","ccccnew");
         News news3 = new News(3,"ddd","ccc");
         List<News> list = new ArrayList<>();
         list.add(news1);
